@@ -14,7 +14,7 @@
   <!-- DU REPOS -->
 
   <!-- general -->
-  <project path="build" name="android_build" remote="du" revision="n7x-caf">
+  <project path="build" name="m8du/android_build" remote="du" revision="n7x-caf">
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="build/blueprint" name="android_build_blueprint" remote="du" />
@@ -66,7 +66,7 @@
 
   <!--frameworks-->
   <project path="frameworks/av" name="android_frameworks_av" remote="du" revision="n7x-caf" />
-  <project path="frameworks/base" name="android_frameworks_base" remote="du" />
+  <project path="frameworks/base" name="m8du/android_frameworks_base" remote="github" revision="n7x" />
   <project path="frameworks/native" name="android_frameworks_native" remote="du" revision="n7x-caf" />
   <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="du" />
   <project path="frameworks/opt/net/ims" name="android_frameworks_opt_net_ims" remote="du" />
@@ -111,7 +111,7 @@
   <project path="packages/apps/DSPManager" name="android_packages_apps_DSPManager" remote="du" />
   <project path="packages/apps/DUI" name="android_packages_apps_DUI" remote="du" />
   <project path="packages/apps/DU-About" name="android_packages_apps_DU-About" remote="du" />
-  <project path="packages/apps/DU-Tweaks" name="android_packages_apps_DU-Tweaks" remote="du" />
+  <project path="packages/apps/DU-Tweaks" name="m8du/android_packages_apps_DU-Tweaks" remote="github" revision="n7x" />
   <project path="packages/apps/DU-Updater" name="android_packages_apps_DU-Updater" remote="du" />
   <project path="packages/apps/Gallery2" name="android_packages_apps_Gallery2" remote="du" />
   <project path="packages/apps/Launcher3" name="android_packages_apps_Launcher3" remote="du" />
@@ -121,7 +121,7 @@
   <project path="packages/apps/OmniStyle" name="android_packages_apps_OmniStyle" remote="du" />
   <project path="packages/apps/PackageInstaller" name="android_packages_apps_PackageInstaller" remote="du" />
   <project path="packages/apps/PhoneCommon" name="android_packages_apps_PhoneCommon" remote="du" />
-  <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="du" />
+  <project path="packages/apps/Settings" name="m8du/android_packages_apps_Settings" remote="github" revision="n7x" />
   <project path="packages/inputmethods/LatinIME" name="android_packages_inputmethods_LatinIME" remote="du" />
   <project path="packages/providers/DownloadProvider" name="android_packages_providers_DownloadProvider" remote="du" />
   <project path="packages/providers/MediaProvider" name="android_packages_providers_MediaProvider" remote="du" />
@@ -162,7 +162,7 @@
   <project path="vendor/htc" name="m8du/vendor_htc" remote="github" revision="n7x-caf"/>
   <project path="hardware/sony/thermanager" name="LineageOS/android_hardware_sony_thermanager" remote="github" revision="cm-14.1" />
   <project path="kernel/htc/msm8974" name="LineageOS/android_kernel_htc_msm8974" remote="github" revision="cm-14.1" />
-  <project path="hardware/libhardware_legacy" name="mihranz7/du_hardware_libhardware_legacy" remote="github" revision="n7x-caf" />
+  <project path="hardware/libhardware_legacy" name="m8du/android_hardware_libhardware_legacy" remote="github" revision="n7x-caf" />
 
 
 </manifest>
