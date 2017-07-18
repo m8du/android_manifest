@@ -14,7 +14,7 @@
   <!-- DU REPOS -->
 
   <!-- general -->
-  <project path="build" name="m8du/android_build" remote="du" revision="n7x-caf">
+  <project path="build" name="m8du/android_build" remote="github" revision="n7x-caf">
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="build/blueprint" name="android_build_blueprint" remote="du" />
